@@ -1,0 +1,21 @@
+.movie-list{
+    display:flex;
+    overflow-x: scroll;
+    scrollbar-width: none; 
+}
+
+.movie-list-outer{
+    display: flex;
+    
+}
+
+.Outer-container{
+    padding: 1.5rem;
+    
+}
+
+.Outer-container h1{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color:red;
+}

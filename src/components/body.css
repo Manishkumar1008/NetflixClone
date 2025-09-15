@@ -1,0 +1,9 @@
+/* .page-content{
+    padding-top: 100px;
+} */
+
+.page-content {
+  position: relative;
+  z-index: 1;   /* keep below header */
+  max-height: 100vh;
+}

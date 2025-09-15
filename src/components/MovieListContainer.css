@@ -1,0 +1,9 @@
+.Movie-list{
+    background-color: black;
+}
+
+.Movie-list-inner{
+    margin-top: -18rem;
+    position :relative;
+    z-index: 200;
+}

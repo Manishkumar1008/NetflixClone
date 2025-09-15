@@ -1,0 +1,8 @@
+.cards{
+  width: 500px;     
+  padding-right: 1rem;
+}
+
+.cards img{
+    width : 10rem;
+}

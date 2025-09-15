@@ -1,0 +1,22 @@
+.header{
+    position: absolute;
+    padding-left: 1rem;
+    /* padding-right: 1rem; */
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    
+    background: linear-gradient(to bottom,black,transparent);
+    z-index: 50;
+
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img{
+    width : 11rem;
+}
+
+.user-logo{
+    padding: 1rem;
+}
