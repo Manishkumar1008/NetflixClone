@@ -1,4 +1,4 @@
-import { HashRouter as BrowserRouter,Routes,Route } from "react-router-dom"
+import { HashRouter,Routes,Route } from "react-router-dom"
 import Browse from "./Browse"
 import Login from "./Login"
 import Header from "./Header"
@@ -7,7 +7,7 @@ import "./body.css"
 const Body = () =>{
     return (
     <div>
-    <BrowserRouter>
+    <HashRouter>
         <Header />
          <div className="page-content">
         <Routes>
@@ -15,7 +15,7 @@ const Body = () =>{
           <Route path="/browse" element={<Browse />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
     </div>)
 }
 
