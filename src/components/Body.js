@@ -11,6 +11,7 @@ const Body = () =>{
         <Header />
          <div className="page-content">
         <Routes>
+          <Route path="/" element={<Login />} /> 
           <Route path="/login" element={<Login />} />
           <Route path="/browse" element={<Browse />} />
         </Routes>
